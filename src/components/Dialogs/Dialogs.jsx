@@ -3,8 +3,18 @@ import s from './Dialogs.module.css';
 
 const Dialogs = (props) => {
     return (
-        <div>
-            Dialogs
+        <div className="dialogs">
+            <div className="dialogs-items">
+                <div className="item">
+                    Dimych
+                </div>
+                <div className="item">
+                    Andrey
+                </div>
+                <div className="item">
+                    Sveta
+                </div>
+            </div>
         </div>
     )
 }
